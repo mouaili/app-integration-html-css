@@ -1,0 +1,485 @@
+/*-------------------------------*/
+/*       STYLESHEET CSS          */
+/*-------------------------------*/
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	background-color: #D3D3D3;
+	background-image: url('../../images/footer-image.png');
+	background-repeat: no-repeat;
+	background-position: bottom left;
+}
+
+/*-------------------------------*/
+/*            Header             */
+/*-------------------------------*/
+
+#header {
+	background-color: #000000;
+}
+
+/*-------------------------------*/
+/*            Heading            */
+/*-------------------------------*/
+
+h1.first-title-page {
+	font-weight: bold;
+	color: #999999;
+}
+
+h2.title-red-card {
+	font-size: 3em;
+	font-weight: bold;
+}
+
+h2.title-white-card {
+	font-size: 2.4em;
+	font-weight: bold;
+	color: #CC0000;
+}
+
+span.p-card {
+	font-size: 2.9em;
+	color: #FFFFFF;
+}
+
+h3.small-title-card {
+	color: #FFFFFF;
+	font-size: 1.4em;
+	font-weight: bold;
+}
+
+p.p-card {
+	text-align: justify;
+}
+
+p.p-text-card {
+	font-size: 20px;
+	color: #FFFFFF;
+	text-align: center;
+	font-style: italic;
+	margin-bottom: 29px;
+}
+
+/*-------------------------------*/
+/*            Login            */
+/*-------------------------------*/
+
+span.sp-letters {
+	font-size: 0.75em;
+	color: #FFFFFF;
+	margin-right: 0.53em;
+}
+
+span.red-letter {
+	color: #CC0000;
+}
+
+a.login-item {
+	font-size: 0.96em;
+	margin-right: -5px;
+}
+
+a.sp-letter, a.login-item {
+	text-decoration: none;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+a.sp-letter:hover, a.login-item:hover {
+	color: #CC0000;
+}
+
+/*-------------------------------*/
+/*      Header Main menu         */
+/*-------------------------------*/
+
+a.nav-link {
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+a.nav-link:hover {
+	color: #CC0000;
+}
+
+a.dropdown-item:hover {
+	color: #CC0000;
+	background-color: transparent;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.4rem;
+    padding-left: 1.4rem;
+}
+
+.navbar-persoColorDark .navbar-toggler-icon {
+	background-image: url('../../images/Humburger-icon-menu.png');
+	width: 58px;
+	height: 40px;
+}
+.persoDarkColor {background-color: #000000!important;}
+
+/*-------------------------------*/
+/*   Card First Main Content     */
+/*-------------------------------*/
+
+.card {
+	border: none;
+	border-radius: 0px 0px;
+}
+
+div.black-card {
+	background-color: #000000;
+	color: #FFFFFF;
+}
+
+div.red-card {
+	background-color: #CC0000;
+	color: #FFFFFF;	
+}
+
+div.transparent-card {
+	background-color: transparent;
+}
+
+div.white-card {
+	background-color: #F2F2F2;
+}
+
+/* Police card */
+
+span.sp-black-card {
+	font-weight: 600;
+	font-size: 1.2em;
+	line-height: 1.2em;
+	margin-bottom: 10px
+}
+
+p.sp-white-card {
+	font-weight: 800;
+}
+
+/*-------------------------------*/
+/*   Card Second Main Content    */
+/*-------------------------------*/
+
+#card-container {
+	margin-bottom: 150px;
+}
+
+hr.separation-hr {
+	border: 20px solid #F2F2F2;
+}
+
+h2.First-title-small-card {
+	font-size: 2.6em;
+	font-weight: bold;
+	color: #CC0000;
+}
+
+h2.title-small-card {
+	font-weight: bold;
+}
+
+span.sp-small-card {
+	font-size: 1.7em;
+}
+
+p.p-small-card {
+	font-size: 1.4em;
+	line-height: 1em;
+	font-style: italic;
+}
+
+/*-------------------------------*/
+/*         Caroussel             */
+/*-------------------------------*/
+
+h5.title-caroussel {
+	font-weight: bold;
+	line-height: 0.90em;
+}
+
+img.img-aplus {
+	display: block;
+	margin-left: 8rem;
+}
+
+div.caroussel-item {
+	position: relative;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 49%;
+    z-index: 10;
+    padding-top: 35px;
+    padding-bottom: 40px;
+    color: #FFFFFF;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+/*-------------------------------*/
+/*            Footer             */
+/*-------------------------------*/
+
+#footer {
+	margin-bottom: -10px;
+}
+
+ul.nav li {
+	list-style: none;
+}
+
+ul.nav li a {
+	text-decoration: none;
+	color: #333333;
+}
+
+ul.nav li a:hover {
+	color: #CC0000;
+}
+
+
+/*-------------------------------*/
+/*        Medias Queries         */
+/*-------------------------------*/
+
+
+@media (min-width: 576px ) {
+
+	/*-------------------------------*/
+	/*   Card First Main Content     */
+	/*-------------------------------*/
+
+	h2.title-red-card {
+	    font-size: 3em;  
+	}
+
+	h2.title-white-card {
+		font-size: 2em;
+	}
+
+	/*-------------------------------*/
+	/*            Footer             */
+	/*-------------------------------*/
+	div#col-social-media {
+		margin-bottom: 25px;
+	}
+
+}
+
+
+@media (min-width: 768px) {
+
+	/*-------------------------------*/
+	/*   Card First Main Content     */
+	/*-------------------------------*/
+
+	h2.title-red-card {
+	font-size: 1.9em;
+	
+	}
+
+	h2.title-white-card {
+		font-size: 2em;
+	}
+
+	span.p-card {
+	    font-size: 2.3em;
+    }
+
+	/*-------------------------------*/
+	/*         Caroussel             */
+	/*-------------------------------*/
+
+	h5.title-caroussel {
+	    font-size: 2em;	
+    }
+
+    img.icon-caroussel {
+    	width: 35px;
+    	margin-left: 15%;
+    }
+
+
+	div.caroussel-item {
+		position: relative;
+	}
+
+	.carousel-caption {
+	    left: 48%;
+	    
+	}
+
+	/*-------------------------------*/
+	/*            Footer             */
+	/*-------------------------------*/
+
+	div#col-social-media {
+		margin-top: -10px;
+	}
+
+	nav.nav {
+		margin-left: -10px;
+	}
+
+	img.res-img {
+		width: 20px;
+		margin-left: 2px;
+	}
+
+	ul.nav li { 
+        font-size: 10px;
+    }
+	
+}
+
+@media (min-width: 992px) {
+
+	/*-------------------------------*/
+	/*   Card First Main Content     */
+	/*-------------------------------*/
+
+	h2.title-red-card {
+	    font-size: 3em;
+	}
+
+	h2.title-white-card {
+		font-size: 2.4em;
+	}
+
+	span.p-card {
+	    font-size: 2.9em;
+    }
+
+	div.red-card {
+	max-width: 415px;
+	margin: 0 auto;
+	}
+
+	div.black-card, div.white-card {
+		max-width: 550px;
+		margin: 0 auto;
+	} 
+
+	/*-------------------------------*/
+	/*         Caroussel             */
+	/*-------------------------------*/
+
+	h5.title-caroussel {
+	    font-size: 2.6em;
+    }
+
+    img.icon-caroussel {
+    	width: 50px;
+    	margin-left: 15%;
+    }
+
+	div.caroussel-item {
+		position: relative;
+	}
+
+	.carousel-caption {
+	    left: 48.6%;
+	}
+
+	/*-------------------------------*/
+	/*            Footer             */
+	/*-------------------------------*/
+
+	div#col-social-media {
+		margin-top: -6px;
+	}
+
+	nav.nav {
+		margin-left: -6px;
+	}
+
+	img.res-img {
+		width: 27px;
+		margin-left: 4px;
+	}
+
+	ul.nav li { 
+        font-size: 0.85em;
+    }
+	
+}
+
+@media (min-width: 1200px) {
+
+	/*-------------------------------*/
+	/*   Card First Main Content     */
+	/*-------------------------------*/
+
+	h2.title-red-card {
+	    font-size: 3em;
+	
+	}
+
+	h2.title-white-card {
+		font-size: 2.4em;
+	}
+
+	span.p-card {
+	    font-size: 2.9em;
+    }
+
+	div.red-card {
+	    max-width: 500px;
+	    margin: 0 auto;
+	}
+
+	div.black-card, div.white-card {
+		max-width: 550px;
+		margin: 0 auto;
+	}
+
+	/*-------------------------------*/
+	/*         Caroussel             */
+	/*-------------------------------*/
+
+	h5.title-caroussel {
+	    font-size: 3.3em;
+    }
+
+    img.icon-caroussel {
+    	width: 60px;
+    	margin-left: 15%;
+    }
+
+
+	div.caroussel-item {
+		position: relative;
+	}
+
+	.carousel-caption {
+	    left: 48.98%; 
+	}
+
+	/*-------------------------------*/
+	/*            Footer             */
+	/*-------------------------------*/
+
+	div#col-social-media {
+		margin-top: -1px;
+	}
+
+	img.res-img {
+		width: 30px;
+		margin-left: 5px;
+	}
+
+	ul.nav li { 
+        font-size: 16px;
+    }
+	
+}
